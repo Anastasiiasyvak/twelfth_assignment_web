@@ -1,5 +1,7 @@
 import React from 'react';
 import Week from './Week'; 
+import './style.css'; 
+
 
 const App = () => {
   return (

@@ -1,0 +1,42 @@
+
+.week {
+    background-color: #efa0ff;
+    padding: 20px;
+    border: 15px solid #ffeb92;
+  }
+  
+  .day {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffeb92;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .task {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #efa0ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .new-task-form {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffeb92;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .button{
+    cursor: pointer;
+    padding:10px;
+    border:none;
+    background-color:rgb(184, 255, 137);
+    color:rgb(163, 58, 233);
+    border-radius:1000px;
+    width:15%;
+    margin: 20px;
+    text-align: center;
+    font-family: Acme;
+    font-size: 18px;
+
+}
