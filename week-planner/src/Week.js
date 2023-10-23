@@ -1,5 +1,6 @@
 import React from 'react';
 import Day from './Day';
+import DayList from './DayList';
 
 const Week = () => {
   return (
@@ -7,25 +8,28 @@ const Week = () => {
       <h1>My Weekly Planner</h1>
       <div className="row">
         <div className="column">
-            <Day dayName="Monday" />
+          <DayList />
         </div>
         <div className="column">
-            <Day dayName="Tuesday" />
+          <Day dayName="Monday" />
         </div>
         <div className="column">
-            <Day dayName="Wednesday" />
+          <Day dayName="Tuesday" />
         </div>
         <div className="column">
-            <Day dayName="Thursday" />
+          <Day dayName="Wednesday" />
         </div>
         <div className="column">
-            <Day dayName="Friday" />
+          <Day dayName="Thursday" />
         </div>
         <div className="column">
-            <Day dayName="Saturday" />
+          <Day dayName="Friday" />
         </div>
         <div className="column">
-            <Day dayName="Sunday" />
+          <Day dayName="Saturday" />
+        </div>
+        <div className="column">
+          <Day dayName="Sunday" />
         </div>
       </div>
     </div>
